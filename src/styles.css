@@ -1,6 +1,111 @@
 body {
+  background-color: #d1d1d1;
   line-height: 1.5;
   padding: 4em 1em;
   font-family: "Roboto Mono", monospace;
-  margin: 0;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+  max-width: 800px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 100px;
+  font-size: 70px;
+  position: relative;
+  left: 20%;
+}
+
+h3 {
+  color: black;
+  max-width: 800px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 100px;
+  position: relative;
+  left: 20%;
+  font-size: 30px;
+}
+
+.text-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+p {
+  width: 50%;
+  font-size: 20px;
+}
+
+#shotwer {
+  margin-top: 60px;
+  display: flex;
+  position: relative;
+  left: 20%;
+}
+
+#allz-btn {
+  width: 203.54px;
+  height: 30px;
+}
+
+.shw-btns button {
+  width: 60px;
+  height: 40px;
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 0.5em;
+  font-size: 18px;
+}
+
+.p1-input {
+  background-color: #ff9933;
+  padding: 5px;
+}
+
+.p2-input {
+  background-color: #3399ff;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+fieldset {
+  border-radius: 1em;
+  margin: 10px;
+  position: relative;
+  right: 25px;
+  border: none;
+}
+
+legend {
+  font-size: 25px;
+  font-weight: 700;
+}
+fieldset input {
+  margin-right: 20px;
+  font-size: 20px;
+  border-radius: 0.5em;
+}
+
+fieldset button {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  border-radius: 0.8em;
+}
+
+button:hover {
+  background-color: #262626;
+  color: white;
+  transition: 0.5s;
 }
