@@ -88,7 +88,7 @@ export default function SHOTwer(props) {
           <button
             style={
               shotwerQ == 0
-                ? { backgroundColor: "#d90429" }
+                ? { backgroundColor: "greenyellow" }
                 : { backgroundColor: "white" }
             }
             onClick={() => {
@@ -100,7 +100,7 @@ export default function SHOTwer(props) {
           <button
             style={
               shotwerQ == 1
-                ? { backgroundColor: "#d90429" }
+                ? { backgroundColor: "greenyellow" }
                 : { backgroundColor: "white" }
             }
             onClick={() => {
@@ -112,7 +112,7 @@ export default function SHOTwer(props) {
           <button
             style={
               shotwerQ == 2
-                ? { backgroundColor: "#d90429" }
+                ? { backgroundColor: "greenyellow" }
                 : { backgroundColor: "white" }
             }
             onClick={() => {
@@ -124,7 +124,7 @@ export default function SHOTwer(props) {
           <button
             style={
               shotwerQ == 3
-                ? { backgroundColor: "#d90429" }
+                ? { backgroundColor: "greenyellow" }
                 : { backgroundColor: "white" }
             }
             onClick={() => {
@@ -136,7 +136,7 @@ export default function SHOTwer(props) {
           <button
             style={
               shotwerQ == 4
-                ? { backgroundColor: "#d90429" }
+                ? { backgroundColor: "greenyellow" }
                 : { backgroundColor: "white" }
             }
             onClick={() => {
@@ -148,7 +148,7 @@ export default function SHOTwer(props) {
           <button
             style={
               shotwerQ == 5
-                ? { backgroundColor: "#d90429" }
+                ? { backgroundColor: "greenyellow" }
                 : { backgroundColor: "white" }
             }
             onClick={() => {
@@ -162,7 +162,7 @@ export default function SHOTwer(props) {
         <button
           style={
             zone == "all"
-              ? { backgroundColor: "#d90429" }
+              ? { backgroundColor: "greenyellow" }
               : { backgroundColor: "white" }
           }
           id="allz-btn"
@@ -177,7 +177,7 @@ export default function SHOTwer(props) {
             <MiniBasketball />
             <rect
               onMouseEnter={(e) => {
-                e.target.style.fill = "black";
+                e.target.style.fill = "greenyellow";
               }}
               onMouseLeave={(e) => {
                 e.target.style.fill = "white";
@@ -194,7 +194,7 @@ export default function SHOTwer(props) {
             ></rect>
             <rect
               onMouseEnter={(e) => {
-                e.target.style.fill = "black";
+                e.target.style.fill = "greenyellow";
               }}
               onMouseLeave={(e) => {
                 e.target.style.fill = "white";
@@ -211,7 +211,7 @@ export default function SHOTwer(props) {
             ></rect>
             <rect
               onMouseEnter={(e) => {
-                e.target.style.fill = "black";
+                e.target.style.fill = "greenyellow";
               }}
               onMouseLeave={(e) => {
                 e.target.style.fill = "white";
@@ -228,7 +228,7 @@ export default function SHOTwer(props) {
             ></rect>
             <rect
               onMouseEnter={(e) => {
-                e.target.style.fill = "black";
+                e.target.style.fill = "greenyellow";
               }}
               onMouseLeave={(e) => {
                 e.target.style.fill = "white";
@@ -245,7 +245,7 @@ export default function SHOTwer(props) {
             ></rect>
             <rect
               onMouseEnter={(e) => {
-                e.target.style.fill = "black";
+                e.target.style.fill = "greenyellow";
               }}
               onMouseLeave={(e) => {
                 e.target.style.fill = "white";
